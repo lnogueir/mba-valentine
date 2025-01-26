@@ -1,6 +1,6 @@
 
 const txt = 'Will you be my valentine?'; /* The text */
-const speed = 188; /* The speed/duration of the effect in milliseconds */
+const speed = 200; /* The speed/duration of the effect in milliseconds */
 function typeWriter(i) {
     if (i < txt.length) {
         document.getElementById("writer").innerHTML += txt.charAt(i);
@@ -40,7 +40,7 @@ $(document).ready(function (){
             $('.writer-yes-no-block').addClass('animate__fadeOut')
             setTimeout(() => {
                 $('div.pyro').css('display', 'block');
-            }, 2000);
+            }, 5000);
 
             $('div.spinning-loader').css('display', 'block');
             $('div.spinning-loader').addClass("animate__fadeIn");

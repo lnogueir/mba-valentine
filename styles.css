@@ -15,26 +15,19 @@
     width: 65vh;
   }
 
-  .living-on-a-prayer {
-    display: none;
-    position: absolute;
-    flex-direction: column;
-    left: 50%;
-    bottom: 50px;
-    transform: translate(-50%);
-    width: 100vw;
-    min-height: 500px;
-    justify-content: center;
-    justify-items: center;
-  }
-
-  .guitar-video{
-    max-width: 870px;
-    width: 80vw;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
-  }
+div .living-on-a-prayer {
+  display: none;
+  position: absolute;
+  flex-direction: column;
+  left: 50%;
+  bottom: 50px;
+  transform: translate(-50%);
+  width: 100vw;
+  min-height: 500px;
+  justify-content: center;
+  justify-items: center;
+  animation-duration: 5s;
+}
   
   .main-nav li {
     list-style: none;
